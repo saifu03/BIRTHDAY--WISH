@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffccdd;
+    text-align: center;
+    color: #333;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background: #ff99cc;
+}
+nav ul li {
+    margin: 0 10px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+.countdown {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.wish-form {
+    margin: 20px;
+}
+.wish-form input, .wish-form textarea {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 5px;
+}
+button {
+    background: #ff6699;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
