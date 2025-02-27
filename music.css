@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8c5dc;
+    text-align: center;
+    padding: 20px;
+}
+h1 {
+    color: #333
+}
+.audio-control {
+    margin-top: 20px ;
+}
+button:hover {
+    opacity:0.8
+}
+button:nth-child(1)
+{
+    background-color: green;color:white 
+}/* play */
+utton:nth-child(2)
+{
+    background-color: orange;color:white 
+}/* pause */
+utton:nth-child(3)
+{
+    background-color: red;color:white 
+}/* stop */
+
+.spotify-section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 400px;
+    margin: auto;
+}
+
+.spotify-widget iframe {
+    border-radius: 10px;
+}
+
+.spotify-button .btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #ff69b4;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.spotify-button .btn:hover {
+    background-color: #ff1493;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Song Section</title>
+    <link rel="stylesheet" href="music.css">
+</head>
+<body>
+    <h1> Music time 🎶</h1>
+    <audio id="myaudio" src="Happy Bday.mp3" type="audio/mpeg"></audio>
+
+        <button onclick="playMusic()"> ▶</button>
+        <button onclick="pauseMusic()"> ⏸</button>
+        <script> 
+         var audio = document.getElementById("myaudio");
+         function playMusic() {
+            audio.play();
+         }
+         function pauseMusic() {
+            audio.pause();
+         }
+        </script>
+    <h3></h3>
+
+<div class="spotify-section">
+    <div class="spotify-widget">
+        <iframe src="https://open.spotify.com/embed/playlist/PLACEHOLDER_LINK" width="100%" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    </div>
+    <div class="spotify-button">
+        <a href="https://open.spotify.com/playlist/PLACEHOLDER_LINK" target="_blank" class="btn">Listen on Spotify</a>
+    </div>
+</div>
+
+</body>
+</html>
