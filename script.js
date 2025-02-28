@@ -15,11 +15,4 @@ function startCountdown() {
     }, 1000);
 }
 
-function sendWish() {
-    let name = document.getElementById("name").value;
-    let wish = document.getElementById("wish").value;
-    let whatsappLink = `https://wa.me/your_number?text=${encodeURIComponent(name + " says: " + wish)}`;
-    window.open(whatsappLink, "_blank");
-}
-
 window.onload = startCountdown;
