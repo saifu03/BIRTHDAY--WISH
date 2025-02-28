@@ -1,5 +1,5 @@
 function startCountdown() {
-    let countdownDate = new Date("2025-03-01T00:00:00").getTime();
+    let countdownDate = new Date("2025-03-03T00:00:00").getTime();
     let x = setInterval(function() {
         let now = new Date().getTime();
         let distance = countdownDate - now;
